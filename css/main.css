@@ -54,7 +54,7 @@ h1 {
     display: inline;
     position: absolute;
     right: 1rem;
-    margin-top: -0.3rem;
+    top: 0.65rem;
 }
 
 .header__login {
