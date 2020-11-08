@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <header class="header--dark">
+        <h3 class="header__title">
+            Admin Page
+            <div class="header__bars">
+                <a href=""><i class="fa fa-bars"></i></a>
+            </div>
+        </h3>
+
+        <div class="header__search">
+            <input type="search" class="search__input" placeholder="Search..">
+            <button class="search__btn">
+                <a href=""><i class="fa fa-search"></i></a>
+            </button>
+            <div class="header__login">
+                <div class ="dropdown" href="">
+                    <i class="fa fa-user"></i>
+                    <i class="fa fa-caret-down"></i>
+                    <div class="dropdown__content">
+                        <a href="">Personal</a>
+                        <a href="">Password</a>
+                        <a href="">
+                            <i class="fa fa-sign-out"></i>
+                            Logout
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <aside>
+            <nav class="main__nav">
+                <ul class="nav__ul">
+                    <li>
+                        <p>core</p>
+                    </li>
+                    <li name="Dashboard">
+                        <a class="active" href="">
+                            <i class="fa fa-tachometer"></i>
+                            <span>Dashboard</span>
+                        </a>
+                    </li>
+                    <li>
+                        <p>interface</p>
+                    </li>
+                    <li>
+                        <a href="">
+                            <i class="fa fa-windows"></i>
+                            <span>Layouts</span>
+                            <div class="angle-right">
+                                <i class="fa fa-angle-right"></i>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <i class="fa fa-bookmark"></i>
+                            <span>Pages</span>
+                            <div class="angle-right">
+                                <i class="fa fa-angle-right"></i>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <p>addons</p>
+                    </li>
+                    <li>
+                        <a href="">
+                            <i class="fa fa-area-chart"></i>
+                            <span>Charts</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <i class="fa fa-table"></i>
+                            <span>Tables</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </aside>
+
+        <section class="content">
+            <h1>Dashboard</h1>
+            <div class="main__breadcrumb">Dashboard</div>
+            <!--div.main__cadrs>div.main__card*4>div.card__top+div.card_bottom -->
+            <div class="main__cadrs">
+                <div class="main__card main__card--blue">
+                    <div class="card__top">Primary Card</div>
+                    <div class="card__bottom">
+                        View Details
+                        <div class="angle-right">
+                            <i class="fa fa-angle-right"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="main__card main__card--yellow">
+                    <div class="card__top">Warning Card</div>
+                    <div class="card__bottom">
+                        View Details
+                        <div class="angle-right">
+                            <i class="fa fa-angle-right"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="main__card main__card--green">
+                    <div class="card__top">Success Card</div>
+                    <div class="card__bottom">
+                        View Details
+                        <div class="angle-right">
+                            <i class="fa fa-angle-right"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="main__card main__card--red">
+                    <div class="card__top">Danger Card</div>
+                    <div class="card__bottom">
+                        View Details
+                        <div class="angle-right">
+                            <i class="fa fa-angle-right"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </main>
+
+</body>
+
+</html>
